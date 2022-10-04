@@ -229,7 +229,7 @@ main .actualidad #primerNoticia {
 }
 main .actualidad .articulo {
   margin-left: 1rem;
-  box-shadow: 6px 6px rgba(255, 0, 0, 0.438), 3px 3px rgba(0, 0, 0, 0.151);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.774), 3px 3px rgba(0, 0, 0, 0.151);
   width: 18rem;
 }
 main .actualidad .articulo .card-img-top {
@@ -283,6 +283,9 @@ main .actualidad iframe {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: linear-gradient(white, black, white);
+  background-position: center;
+  background-size: cover;
 }
 .mainDisciplinas .presentacion {
   width: 100%;
@@ -299,6 +302,28 @@ main .actualidad iframe {
 .mainDisciplinas .disciplinas {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+.mainDisciplinas .disciplinas .descripcionDisciplina {
+  align-self: center;
+  margin: 1rem;
+  box-shadow: 6px 6px 13px black;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border: solid 2px black;
+}
+.mainDisciplinas .disciplinas .descripcionDisciplina .tipoDisciplina {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.4rem;
+  color: white;
+}
+.mainDisciplinas .disciplinas .descripcionDisciplina .imagen-deporte {
+  height: 24rem;
+}
+.mainDisciplinas .disciplinas .descripcionDisciplina .infoDisciplina {
+  text-align: center;
+  font-weight: bold;
 }
 
 .seccion-contacto {
