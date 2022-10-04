@@ -124,6 +124,36 @@ main {
 
 
 
+//MainDisciplinas
+.mainDisciplinas {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .presentacion {
+       width: 100%;
+       height: 9rem;
+       align-self: center;
+    }
+    
+    .texto {
+      text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        color: rgb(168, 5, 5);
+        transform: translateY(-7rem);
+      
+    }
+
+    .disciplinas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
 
      //MainContacto
 
