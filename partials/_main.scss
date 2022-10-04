@@ -1,7 +1,9 @@
 //MainIndex
 
 main {
+   
     .carrousel-invitacion {
+
 
         .entrenamiento {
             height: 32rem;
@@ -86,6 +88,8 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-image: url(../images/bandera.jpg);
+    background-size: cover;
     
 
     .new {

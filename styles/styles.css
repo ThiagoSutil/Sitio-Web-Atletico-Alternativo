@@ -256,6 +256,8 @@ main .actualidad iframe {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-image: url(../images/bandera.jpg);
+  background-size: cover;
 }
 .noticiero .new {
   margin: 1rem;
