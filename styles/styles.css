@@ -324,6 +324,9 @@ main .actualidad iframe {
 
 .info-socios {
   display: flex;
+  background-image: url(../images/bandera.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .info-socios .ult-info {
   display: flex;
