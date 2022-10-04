@@ -1,0 +1,79 @@
+.pieDePagina {
+    display: flex;
+    background-color: rgba(167, 167, 167, 0.651);
+
+    .mapa {
+        align-self: center;
+        text-align: center;
+
+        .paginas {
+            list-style-type: none;
+            margin: 2rem;
+
+
+
+            li {
+                margin-top: 0.5rem;
+
+
+            }
+
+
+        }
+
+    }
+
+
+
+    .info {
+        align-self: center;
+        text-align: center;
+        color: red;
+        font-weight: bold;
+        margin: 2rem;
+
+        .data {
+            margin-top: 0.5rem;
+        }
+    }
+
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        color: red;
+
+        .seguinos {
+            font-size: larger;
+            font-weight: bold;
+       
+        }
+
+        .logoRed {
+            margin-left: 1rem;
+            width: 2rem;
+            height: 2rem;
+            transition: 0.5s;
+
+            &:hover {
+                filter: opacity(0.5);
+                text-align: center;
+            }
+        }
+    }
+
+
+}
+
+.paginas a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+    font-weight: bold;
+
+    &:hover {
+        font-size: larger;
+    }
+}

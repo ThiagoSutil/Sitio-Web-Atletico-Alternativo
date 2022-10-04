@@ -1,0 +1,44 @@
+
+
+header {
+    display: flex;
+    background-color: red;
+    color: white;
+    align-items: center;
+    height: 6rem;
+    
+
+    .cabecera {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .texto-logo {
+            font-weight: bold;
+        }
+
+        .escudo {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+
+    .redes {
+        display: flex;
+        justify-content: flex-end;
+        transform: translateX(-2rem);
+
+        .logoRed {
+           margin-left: 1rem;
+            width: 2rem;
+            height: 2rem;
+            transition: 0.5s;
+            &:hover {
+                filter: opacity(0.5);
+            }
+        }
+    }
+
+  
+
+}

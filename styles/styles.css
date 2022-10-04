@@ -1,0 +1,435 @@
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .main .carrousel-invitacion {
+    display: none;
+  }
+  .main .actualidad {
+    flex-direction: column;
+  }
+  .main .actualidad .articulo {
+    margin-top: 1rem;
+    align-self: center;
+    width: 90%;
+  }
+  .main .actualidad aside {
+    display: none;
+  }
+  .redes .logoRed {
+    display: none;
+  }
+  .pieDePagina {
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .pieDePagina .mapa {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  .pieDePagina .mapa .paginas {
+    transform: translateX(-1rem);
+  }
+  .pieDePagina .info {
+    width: 90%;
+  }
+  .pieDePagina .social {
+    display: flex;
+    flex-direction: row;
+  }
+  .pieDePagina .social .seguinos {
+    display: none;
+  }
+  .pieDePagina .social .logoRed {
+    transform: translateX(-0.5rem);
+  }
+  .new {
+    width: 100%;
+  }
+  .cartel .panel {
+    display: none;
+  }
+  .info-socios {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-socios .ult-info {
+    width: 100%;
+  }
+  .info-socios .ult-info:hover {
+    display: none;
+  }
+  .info-socios .asociate {
+    align-self: center;
+    margin-top: 0.5rem;
+    width: 80%;
+  }
+}
+.pieDePagina {
+  display: flex;
+  background-color: rgba(167, 167, 167, 0.651);
+}
+.pieDePagina .mapa {
+  align-self: center;
+  text-align: center;
+}
+.pieDePagina .mapa .paginas {
+  list-style-type: none;
+  margin: 2rem;
+}
+.pieDePagina .mapa .paginas li {
+  margin-top: 0.5rem;
+}
+.pieDePagina .info {
+  align-self: center;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  margin: 2rem;
+}
+.pieDePagina .info .data {
+  margin-top: 0.5rem;
+}
+.pieDePagina .social {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  color: red;
+}
+.pieDePagina .social .seguinos {
+  font-size: larger;
+  font-weight: bold;
+}
+.pieDePagina .social .logoRed {
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.5s;
+}
+.pieDePagina .social .logoRed:hover {
+  filter: opacity(0.5);
+  text-align: center;
+}
+
+.paginas a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  transition: 0.5s;
+  font-weight: bold;
+}
+.paginas a:hover {
+  font-size: larger;
+}
+
+header {
+  display: flex;
+  background-color: red;
+  color: white;
+  align-items: center;
+  height: 6rem;
+}
+header .cabecera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .cabecera .texto-logo {
+  font-weight: bold;
+}
+header .cabecera .escudo {
+  width: 4rem;
+  height: 4rem;
+}
+header .redes {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateX(-2rem);
+}
+header .redes .logoRed {
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.5s;
+}
+header .redes .logoRed:hover {
+  filter: opacity(0.5);
+}
+
+.menu {
+  background-color: rgb(141, 0, 0);
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  transition: 0.5s;
+}
+.menu:hover {
+  background-color: rgb(102, 0, 0);
+}
+.menu .links {
+  display: flex;
+  list-style-type: none;
+  align-self: center;
+  transform: translateY(0.3rem);
+}
+.menu .links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.menu .links a:hover {
+  -webkit-text-decoration: underline 0.7rem white;
+          text-decoration: underline 0.7rem white;
+}
+.menu .llegar {
+  color: white;
+  font-weight: bold;
+  transform: translate(7rem, 0.3rem);
+}
+.menu .logoRed {
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.5s;
+}
+.menu .logoRed:hover {
+  filter: opacity(0.5);
+}
+
+main .carrousel-invitacion .entrenamiento {
+  height: 32rem;
+}
+main .carrousel-invitacion .deporte {
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+}
+main .carrousel-invitacion .sumate {
+  background-color: white;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.5s;
+}
+main .carrousel-invitacion .sumate:hover {
+  font-size: 23px;
+}
+main .carrousel-invitacion .sumate a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+main .actualidad {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+main .actualidad #primerNoticia {
+  margin-left: 0;
+}
+main .actualidad .articulo {
+  margin-left: 1rem;
+  box-shadow: 6px 6px rgba(255, 0, 0, 0.438), 3px 3px rgba(0, 0, 0, 0.151);
+  width: 18rem;
+}
+main .actualidad .articulo .card-img-top {
+  height: 15rem;
+}
+main .actualidad .articulo .tituloNoticia {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+main .actualidad .articulo .redaccion {
+  font-weight: bold;
+  text-align: center;
+}
+main .actualidad iframe {
+  height: 30rem;
+  width: 24rem;
+  border: solid 2px rgba(0, 0, 0, 0.445);
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.noticiero {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.noticiero .new {
+  margin: 1rem;
+  box-shadow: 6px 6px rgba(255, 0, 0, 0.541);
+}
+.noticiero .new .imagen-noticia {
+  height: 25rem;
+}
+.noticiero .new .tituloNoticia {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+.noticiero .new .redaccion {
+  font-weight: bold;
+  text-align: center;
+}
+.noticiero .new .verMas {
+  float: right;
+}
+
+.seccion-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/hinchas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.seccion-contacto .cartel {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.seccion-contacto .cartel .panel {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  background-color: rgba(255, 0, 0, 0.747);
+  padding: 1rem;
+  width: 100%;
+}
+.seccion-contacto .interaccion {
+  display: flex;
+  justify-content: center;
+}
+.seccion-contacto .interaccion legend {
+  color: black;
+  font-weight: bold;
+}
+.seccion-contacto .interaccion .formulario {
+  text-align: center;
+}
+.seccion-contacto .interaccion .formulario input {
+  text-align: center;
+}
+.seccion-contacto .interaccion .formulario .formulario-texto {
+  padding: 0.3rem;
+  margin: 0.3rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.seccion-contacto .interaccion .formulario .botones {
+  margin-bottom: 0.5rem;
+}
+
+.info-socios {
+  display: flex;
+}
+.info-socios .ult-info {
+  display: flex;
+  flex-direction: column;
+}
+.info-socios .ult-info h4 {
+  margin-top: 1rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.info-socios .ult-info p {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.info-socios .ult-info p:hover {
+  background-color: rgb(122, 1, 1);
+}
+.info-socios .asociate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info-socios .asociate .boton-socios {
+  width: 15rem;
+  height: 4rem;
+  align-self: center;
+  border: 0px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  -webkit-animation-name: efectoUno;
+          animation-name: efectoUno;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.info-socios .asociate .boton-socios:hover {
+  font-size: larger;
+  height: 5rem;
+  width: 17rem;
+}
+@-webkit-keyframes efectoUno {
+  0% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  50% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  75% {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+}
+@keyframes efectoUno {
+  0% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  25% {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  50% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  75% {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+}
+.info-socios .asociate .boton-socios a {
+  color: white;
+  text-decoration: none;
+}
+.info-socios .asociate .informacion-util {
+  align-self: center;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0.4rem;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

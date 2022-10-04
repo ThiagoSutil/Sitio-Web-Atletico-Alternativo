@@ -1,0 +1,48 @@
+.menu {
+    background-color: rgb(141, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    transition: 0.5s;
+    &:hover {
+        background-color: rgb(102, 0, 0);
+    }
+
+
+    .links {
+        display: flex;
+        list-style-type: none;
+        align-self: center;
+        transform: translateY(0.3rem);
+       
+    }
+    
+    .links a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-left: 1rem;
+        &:hover {
+            text-decoration: underline 0.7rem white;
+        }
+        
+        
+    }
+
+    .llegar {
+        color: white;
+        font-weight: bold;
+        transform: translate(7rem, 0.3rem);
+    }
+
+    .logoRed {
+        margin-left: 1rem;
+        width: 2rem;
+        height: 2rem;
+        transition: 0.5s;
+        &:hover {
+            filter: opacity(0.5);
+        }
+    }
+
+}

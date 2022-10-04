@@ -1,0 +1,121 @@
+@media screen and (min-width: 320px) and (max-width: 575px) {
+
+    //Index
+    .main {
+
+        .carrousel-invitacion {
+            display: none;
+        }
+
+        .actualidad {
+            flex-direction: column;
+
+            .articulo {
+                margin-top: 1rem;
+                align-self: center;
+                width: 90%;
+                
+            }
+
+            aside {
+                display: none;
+            }
+
+
+        }
+
+
+
+    }
+
+    
+
+
+
+
+    .redes {
+        .logoRed {
+            display: none;
+        }
+    }
+
+    .pieDePagina {
+        flex-direction: column;
+        padding-bottom: 1rem;
+
+
+        .mapa {
+            align-content: center;
+            display: flex;
+            justify-content: center;
+          
+            
+
+            .paginas {
+                transform: translateX(-1rem);
+            }
+        }
+
+        .info {
+            width: 90%;
+        }
+
+        .social {
+            display: flex;
+            flex-direction: row;
+
+            .seguinos {
+                display: none;
+            }
+
+            .logoRed {
+                transform: translateX(-0.5rem);
+            }
+
+        }
+
+
+    }
+
+    //MainNoticias
+
+    .new {
+        width: 100%;
+
+    }
+
+
+    //MainContacto
+
+    .cartel {
+
+        .panel {
+            display: none;
+        }
+    }
+
+
+    .info-socios {
+        display: flex;
+        flex-direction: column;
+
+        .ult-info {
+            width: 100%;
+
+            &:hover {
+                display: none;
+            }
+        }
+
+
+        .asociate {
+            align-self: center;
+            margin-top: 0.5rem;
+            width: 80%;
+        }
+
+
+
+    }
+
+}
