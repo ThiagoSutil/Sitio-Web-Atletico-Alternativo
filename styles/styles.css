@@ -206,7 +206,7 @@ main .carrousel-invitacion .deporte {
 }
 main .carrousel-invitacion .sumate {
   background-color: white;
-  color: red;
+  color: rgb(255, 0, 0);
   font-size: 20px;
   font-weight: bold;
   border-radius: 10px;
