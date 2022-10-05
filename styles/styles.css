@@ -4,10 +4,13 @@
   }
   .main .actualidad {
     flex-direction: column;
+    margin: 0;
+  }
+  .main .actualidad #primerNoticia {
+    margin-left: 1rem;
   }
   .main .actualidad .articulo {
-    margin-top: 1rem;
-    transform: translateX(-1rem);
+    margin: 1rem;
     align-self: center;
     width: 90%;
   }

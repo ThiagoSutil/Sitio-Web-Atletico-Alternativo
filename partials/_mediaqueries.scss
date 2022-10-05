@@ -9,14 +9,18 @@
 
         .actualidad {
             flex-direction: column;
+            margin: 0;
 
+
+            #primerNoticia {
+                margin-left: 1rem;
+            }
 
             .articulo {
-                margin-top: 1rem;
-                transform: translateX(-1rem);
+                margin: 1rem;
                 align-self: center;
                 width: 90%;
-                
+
             }
 
             aside {
@@ -30,7 +34,7 @@
 
     }
 
-    
+
 
 
 
@@ -50,8 +54,8 @@
             align-content: center;
             display: flex;
             justify-content: center;
-          
-            
+
+
 
             .paginas {
                 transform: translateX(-1rem);
@@ -87,11 +91,11 @@
     }
 
 
-//MainDisciplinas
+    //MainDisciplinas
 
-.descripcionDisciplina {
-    width: 100%;
-}
+    .descripcionDisciplina {
+        width: 100%;
+    }
 
 
 
