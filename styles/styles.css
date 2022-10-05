@@ -45,6 +45,9 @@
   .new {
     width: 100%;
   }
+  .descripcionDisciplina {
+    width: 100%;
+  }
   .cartel .panel {
     display: none;
   }
