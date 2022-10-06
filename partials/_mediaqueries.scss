@@ -54,6 +54,7 @@
             align-content: center;
             display: flex;
             justify-content: center;
+          
 
 
 
@@ -76,6 +77,7 @@
 
             .logoRed {
                 transform: translateX(-0.5rem);
+                margin-top: 1rem;
             }
 
         }
@@ -112,6 +114,7 @@
     .info-socios {
         display: flex;
         flex-direction: column;
+        background-image: url(../images/fondoblanco.jpg);
 
         .ult-info {
             width: 100%;
@@ -126,10 +129,80 @@
             align-self: center;
             margin-top: 0.5rem;
             width: 80%;
+
+            .boton-socios {
+                animation-name: none;
+            }
         }
 
 
 
     }
 
+}
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+    //MainIndex
+     
+    main {
+
+
+        .actualidad {
+            
+            flex-direction: column;
+
+            
+
+            .articulo {
+                margin: 1rem;
+                align-self: center;
+                width: 90%;
+
+                .card-img-top {
+                    height: 20rem;
+                    
+                }
+
+            }
+        }
+
+        aside {
+            display: none;
+        }
+    }
+
+    
+
+    .pieDePagina {
+        flex-direction: column;
+
+        .paginas {
+            transform: translateX(-1rem);
+        }
+
+        .seguinos { display: none;
+        
+            }
+
+        .logoRed {
+            transform: translateX(-0.5rem);
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    aside {
+        display: none;
+    }
 }
