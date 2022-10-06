@@ -94,7 +94,7 @@ main {
 
     .new {
     margin: 1rem;
-    box-shadow: 06px 06px rgba(255, 0, 0, 0.541);
+    box-shadow: 06px 06px 13px black;
     
 
     .imagen-noticia {
@@ -163,17 +163,17 @@ main {
             align-self: center;
             margin: 1rem;
             box-shadow: 06px 06px 13px black;
-            color: rgb(255, 255, 255);
-            background-color: rgb(255, 0, 0);
-            border: solid 2px black;
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255);
+            background-image: linear-gradient(white, black, white);
 
 
 
             .tipoDisciplina {
                 text-align: center;
-                font-weight: bold;
+                /*font-weight: bold;*/
                 margin-top: 0.4rem;
-                color: white;
+                color: rgb(255, 0, 0);
             }
 
             .imagen-deporte {

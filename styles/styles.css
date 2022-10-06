@@ -267,7 +267,7 @@ main .actualidad iframe {
 }
 .noticiero .new {
   margin: 1rem;
-  box-shadow: 6px 6px rgba(255, 0, 0, 0.541);
+  box-shadow: 6px 6px 13px black;
 }
 .noticiero .new .imagen-noticia {
   height: 25rem;
@@ -314,15 +314,15 @@ main .actualidad iframe {
   align-self: center;
   margin: 1rem;
   box-shadow: 6px 6px 13px black;
-  color: rgb(255, 255, 255);
-  background-color: rgb(255, 0, 0);
-  border: solid 2px black;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(white, black, white);
 }
 .mainDisciplinas .disciplinas .descripcionDisciplina .tipoDisciplina {
   text-align: center;
-  font-weight: bold;
+  /*font-weight: bold;*/
   margin-top: 0.4rem;
-  color: white;
+  color: rgb(255, 0, 0);
 }
 .mainDisciplinas .disciplinas .descripcionDisciplina .imagen-deporte {
   height: 24rem;
