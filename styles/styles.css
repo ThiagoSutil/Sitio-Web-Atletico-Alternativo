@@ -248,7 +248,7 @@ main .actualidad iframe {
 }
 .mainDisciplinas .disciplinas .descripcionDisciplina .tipoDisciplina {
   text-align: center;
-  /*font-weight: bold;*/
+  font-weight: bold;
   margin-top: 0.4rem;
   color: rgb(255, 0, 0);
 }
