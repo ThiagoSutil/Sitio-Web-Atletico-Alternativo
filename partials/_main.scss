@@ -122,6 +122,45 @@ main {
     
 }
 
+//MainInstitucional 
+
+.historia-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .card {
+        margin: 1rem;
+        text-align: center;
+        align-self: center;
+        background-color: rgb(139, 0, 0);
+        color: white;
+        font-weight: bold;
+
+        .card-title {
+            font-size: 2rem;
+            color: rgb(139, 0, 0);
+            background-color: white;
+            border-radius: 10px;
+            font-weight: bold;
+
+        }
+
+        .card-img-top {
+            height: 45rem;
+        }
+
+        h6 {
+            margin-top: 0.5rem;
+            text-decoration: underline 2px;
+        }
+    }
+
+    .boca {
+        margin-top: 1rem;
+    }
+}
+
 
 
 //MainDisciplinas

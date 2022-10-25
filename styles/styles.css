@@ -213,6 +213,38 @@ main .actualidad iframe {
   float: right;
 }
 
+.historia-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.historia-items .card {
+  margin: 1rem;
+  text-align: center;
+  align-self: center;
+  background-color: rgb(139, 0, 0);
+  color: white;
+  font-weight: bold;
+}
+.historia-items .card .card-title {
+  font-size: 2rem;
+  color: rgb(139, 0, 0);
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.historia-items .card .card-img-top {
+  height: 45rem;
+}
+.historia-items .card h6 {
+  margin-top: 0.5rem;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+.historia-items .boca {
+  margin-top: 1rem;
+}
+
 .mainDisciplinas {
   display: flex;
   flex-direction: column;
@@ -508,6 +540,9 @@ main .actualidad iframe {
   .new {
     width: 100%;
   }
+  .historia-items .card .card-img-top {
+    height: 14rem;
+  }
   .descripcionDisciplina {
     width: 100%;
   }
@@ -568,6 +603,10 @@ main .actualidad iframe {
     margin-bottom: 0.5rem;
   }
 }
+.historia-items .card .card-img-top {
+  height: 25rem;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   aside {
     display: none;

@@ -92,6 +92,17 @@
 
     }
 
+    //MainInstitucional
+
+    .historia-items {
+    
+    .card {
+
+        .card-img-top {
+            height: 14rem;
+        }
+    }
+    }
 
     //MainDisciplinas
 
@@ -219,10 +230,23 @@
     
 }
 
+//MainInstitucional
+
+.historia-items {
+    
+    .card {
+
+        .card-img-top {
+            height: 25rem;
+        }
+    }
+    }
+
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
     aside {
         display: none;
     }
+
 }
