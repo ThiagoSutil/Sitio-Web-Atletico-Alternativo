@@ -192,6 +192,56 @@ main {
 }
 
 
+//MainGaleria
+
+.mainGaleria {
+    background-image: linear-gradient(rgb(173, 0, 0), white,  rgb(173, 0, 0));
+    height: 100%;
+   
+}
+
+.galerias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .deporte-galeria {
+        margin: 0.5rem;
+        width: 22rem;
+        height: 17rem;
+
+        .card-title {
+            text-align: center;
+            font-size: 2rem;
+            transform: translateY(6rem);
+            color: red;
+            font-weight: bold;
+            transition: background-color 0.5s, border 0s;
+
+            &:hover {
+                background-color: white;
+                border-radius: 05px;
+                border: red 2px solid;
+            }
+
+           
+        }
+
+        .card-title a {
+            color: red;
+            text-decoration: none;
+        }
+        
+
+        }
+
+        .imagen-galeria {
+            height: 100%;
+            filter: blur(2px);
+        }
+    }
+
+
 
 
      //MainContacto

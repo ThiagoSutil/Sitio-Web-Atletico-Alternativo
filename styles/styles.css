@@ -260,6 +260,43 @@ main .actualidad iframe {
   font-weight: bold;
 }
 
+.mainGaleria {
+  background-image: linear-gradient(rgb(173, 0, 0), white, rgb(173, 0, 0));
+  height: 100%;
+}
+
+.galerias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galerias .deporte-galeria {
+  margin: 0.5rem;
+  width: 22rem;
+  height: 17rem;
+}
+.galerias .deporte-galeria .card-title {
+  text-align: center;
+  font-size: 2rem;
+  transform: translateY(6rem);
+  color: red;
+  font-weight: bold;
+  transition: background-color 0.5s, border 0s;
+}
+.galerias .deporte-galeria .card-title:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: red 2px solid;
+}
+.galerias .deporte-galeria .card-title a {
+  color: red;
+  text-decoration: none;
+}
+.galerias .imagen-galeria {
+  height: 100%;
+  filter: blur(2px);
+}
+
 .seccion-contacto {
   display: flex;
   flex-direction: column;
@@ -473,6 +510,9 @@ main .actualidad iframe {
   }
   .descripcionDisciplina {
     width: 100%;
+  }
+  .galerias .deporte-galeria .card-title {
+    transform: translateY(5.5rem);
   }
   .cartel .panel {
     display: none;
