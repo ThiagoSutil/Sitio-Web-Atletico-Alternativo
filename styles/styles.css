@@ -1,69 +1,3 @@
-@media screen and (min-width: 320px) and (max-width: 575px) {
-  .main .carrousel-invitacion {
-    display: none;
-  }
-  .main .actualidad {
-    flex-direction: column;
-  }
-  .main .actualidad .articulo {
-    margin-top: 1rem;
-    transform: translateX(-1rem);
-    align-self: center;
-    width: 90%;
-  }
-  .main .actualidad aside {
-    display: none;
-  }
-  .redes .logoRed {
-    display: none;
-  }
-  .pieDePagina {
-    flex-direction: column;
-    padding-bottom: 1rem;
-  }
-  .pieDePagina .mapa {
-    align-content: center;
-    display: flex;
-    justify-content: center;
-  }
-  .pieDePagina .mapa .paginas {
-    transform: translateX(-1rem);
-  }
-  .pieDePagina .info {
-    width: 90%;
-  }
-  .pieDePagina .social {
-    display: flex;
-    flex-direction: row;
-  }
-  .pieDePagina .social .seguinos {
-    display: none;
-  }
-  .pieDePagina .social .logoRed {
-    transform: translateX(-0.5rem);
-  }
-  .new {
-    width: 100%;
-  }
-  .cartel .panel {
-    display: none;
-  }
-  .info-socios {
-    display: flex;
-    flex-direction: column;
-  }
-  .info-socios .ult-info {
-    width: 100%;
-  }
-  .info-socios .ult-info:hover {
-    display: none;
-  }
-  .info-socios .asociate {
-    align-self: center;
-    margin-top: 0.5rem;
-    width: 80%;
-  }
-}
 .pieDePagina {
   display: flex;
   background-color: rgba(167, 167, 167, 0.651);
@@ -84,7 +18,6 @@
   text-align: center;
   color: red;
   font-weight: bold;
-  margin: 2rem;
 }
 .pieDePagina .info .data {
   margin-top: 0.5rem;
@@ -147,8 +80,8 @@ header .redes {
 }
 header .redes .logoRed {
   margin-left: 1rem;
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   transition: 0.5s;
 }
 header .redes .logoRed:hover {
@@ -230,7 +163,7 @@ main .actualidad #primerNoticia {
 }
 main .actualidad .articulo {
   margin-left: 1rem;
-  box-shadow: 6px 6px rgba(255, 0, 0, 0.438), 3px 3px rgba(0, 0, 0, 0.151);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.774), 3px 3px rgba(0, 0, 0, 0.151);
   width: 18rem;
 }
 main .actualidad .articulo .card-img-top {
@@ -257,13 +190,15 @@ main .actualidad iframe {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-image: url(../images/bandera.jpg);
+  background-size: cover;
 }
 .noticiero .new {
   margin: 1rem;
-  box-shadow: 6px 6px rgba(255, 0, 0, 0.541);
+  box-shadow: 6px 6px 13px black;
 }
 .noticiero .new .imagen-noticia {
-  height: 25rem;
+  height: 15rem;
 }
 .noticiero .new .tituloNoticia {
   text-align: center;
@@ -276,6 +211,53 @@ main .actualidad iframe {
 }
 .noticiero .new .verMas {
   float: right;
+}
+
+.mainDisciplinas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(white, black, white);
+  background-position: center;
+  background-size: cover;
+}
+.mainDisciplinas .presentacion {
+  width: 100%;
+  height: 9rem;
+  align-self: center;
+}
+.mainDisciplinas .texto {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(168, 5, 5);
+  transform: translateY(-7rem);
+}
+.mainDisciplinas .disciplinas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainDisciplinas .disciplinas .descripcionDisciplina {
+  align-self: center;
+  margin: 1rem;
+  box-shadow: 6px 6px 13px black;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(white, black, white);
+}
+.mainDisciplinas .disciplinas .descripcionDisciplina .tipoDisciplina {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.4rem;
+  color: rgb(255, 0, 0);
+}
+.mainDisciplinas .disciplinas .descripcionDisciplina .imagen-deporte {
+  height: 24rem;
+}
+.mainDisciplinas .disciplinas .descripcionDisciplina .infoDisciplina {
+  text-align: center;
+  font-weight: bold;
 }
 
 .seccion-contacto {
@@ -325,6 +307,9 @@ main .actualidad iframe {
 
 .info-socios {
   display: flex;
+  background-image: url(../images/bandera.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .info-socios .ult-info {
   display: flex;
@@ -433,4 +418,118 @@ main .actualidad iframe {
   color: rgb(0, 0, 0);
   padding: 0.5rem;
   text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .main .carrousel-invitacion {
+    display: none;
+  }
+  .main .actualidad {
+    flex-direction: column;
+    margin: 0;
+  }
+  .main .actualidad #primerNoticia {
+    margin-left: 1rem;
+  }
+  .main .actualidad .articulo {
+    margin: 1rem;
+    align-self: center;
+    width: 90%;
+  }
+  .main .actualidad aside {
+    display: none;
+  }
+  .redes .logoRed {
+    display: none;
+  }
+  .pieDePagina {
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .pieDePagina .mapa {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  .pieDePagina .mapa .paginas {
+    transform: translateX(-1rem);
+  }
+  .pieDePagina .info {
+    width: 90%;
+  }
+  .pieDePagina .social {
+    display: flex;
+    flex-direction: row;
+  }
+  .pieDePagina .social .seguinos {
+    display: none;
+  }
+  .pieDePagina .social .logoRed {
+    transform: translateX(-0.5rem);
+    margin-top: 1rem;
+  }
+  .new {
+    width: 100%;
+  }
+  .descripcionDisciplina {
+    width: 100%;
+  }
+  .cartel .panel {
+    display: none;
+  }
+  .info-socios {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/fondoblanco.jpg);
+  }
+  .info-socios .ult-info {
+    width: 100%;
+  }
+  .info-socios .ult-info:hover {
+    display: none;
+  }
+  .info-socios .asociate {
+    align-self: center;
+    margin-top: 0.5rem;
+    width: 80%;
+  }
+  .info-socios .asociate .boton-socios {
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  main .actualidad {
+    flex-direction: column;
+  }
+  main .actualidad .articulo {
+    margin: 1rem;
+    align-self: center;
+    width: 90%;
+  }
+  main .actualidad .articulo .card-img-top {
+    height: 20rem;
+  }
+  main aside {
+    display: none;
+  }
+  .pieDePagina {
+    flex-direction: column;
+  }
+  .pieDePagina .paginas {
+    transform: translateX(-1rem);
+  }
+  .pieDePagina .seguinos {
+    display: none;
+  }
+  .pieDePagina .logoRed {
+    transform: translateX(-0.5rem);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  aside {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

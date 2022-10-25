@@ -1,7 +1,9 @@
 //MainIndex
 
 main {
+   
     .carrousel-invitacion {
+
 
         .entrenamiento {
             height: 32rem;
@@ -47,7 +49,7 @@ main {
         
     .articulo {
         margin-left: 1rem;
-        box-shadow: 06px 06px rgba(255, 0, 0, 0.438), 03px 03px rgba(0, 0, 0, 0.151);
+        box-shadow: 06px 06px 12px rgba(0, 0, 0, 0.774), 03px 03px rgba(0, 0, 0, 0.151);
         width: 18rem;
 
         .card-img-top {
@@ -86,15 +88,17 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-image: url(../images/bandera.jpg);
+    background-size: cover;
     
 
     .new {
     margin: 1rem;
-    box-shadow: 06px 06px rgba(255, 0, 0, 0.541);
+    box-shadow: 06px 06px 13px black;
     
 
     .imagen-noticia {
-        height: 25rem;
+        height: 15rem;
         
     }
 
@@ -116,6 +120,75 @@ main {
   
     }
     
+}
+
+
+
+//MainDisciplinas
+.mainDisciplinas {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(white, black, white) ;
+    background-position: center;
+    background-size: cover;
+
+    .presentacion {
+       width: 100%;
+       height: 9rem;
+       align-self: center;
+    }
+    
+    .texto {
+      text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        color: rgb(168, 5, 5);
+        transform: translateY(-7rem);
+      
+    }
+
+    .disciplinas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      
+        
+
+
+
+        .descripcionDisciplina {
+
+            align-self: center;
+            margin: 1rem;
+            box-shadow: 06px 06px 13px black;
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255);
+            background-image: linear-gradient(white, black, white);
+
+
+
+            .tipoDisciplina {
+                text-align: center;
+                font-weight: bold;
+                margin-top: 0.4rem;
+                color: rgb(255, 0, 0);
+            }
+
+            .imagen-deporte {
+                height: 24rem;
+            }
+    
+            .infoDisciplina {
+                text-align: center;
+                font-weight: bold;
+            }
+
+        }
+
+      
+    }
 }
 
 
@@ -188,6 +261,9 @@ main {
 
 .info-socios {
 display: flex;
+background-image: url(../images/bandera.jpg);
+background-size: cover;
+background-position: center;
 
 .ult-info {
     display: flex;
