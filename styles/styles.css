@@ -80,8 +80,8 @@ header .redes {
 }
 header .redes .logoRed {
   margin-left: 1rem;
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   transition: 0.5s;
 }
 header .redes .logoRed:hover {
