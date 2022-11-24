@@ -54,7 +54,7 @@
             align-content: center;
             display: flex;
             justify-content: center;
-          
+
 
 
 
@@ -94,15 +94,16 @@
 
     //MainInstitucional
 
-    .historia-items {
-    
-    .card {
+
+    card-body {
 
         .card-img-top {
-            height: 14rem;
+            height: 5rem;
         }
+
     }
-    }
+
+
 
     //MainDisciplinas
 
@@ -116,15 +117,15 @@
 
     .galerias {
 
-    .deporte-galeria {
+        .deporte-galeria {
 
 
-        .card-title {
-          
-            transform: translateY(5.5rem);
-    
-        }
-        
+            .card-title {
+
+                transform: translateY(5.5rem);
+
+            }
+
 
         }
     }
@@ -180,7 +181,7 @@
 
     //MainIndex
 
-     
+
     main {
 
 
@@ -188,7 +189,7 @@
 
             flex-direction: column;
 
-            
+
 
             .articulo {
                 margin: 1rem;
@@ -197,7 +198,7 @@
 
                 .card-img-top {
                     height: 20rem;
-                    
+
                 }
 
             }
@@ -208,7 +209,7 @@
         }
     }
 
-    
+
 
     .pieDePagina {
         flex-direction: column;
@@ -217,9 +218,10 @@
             transform: translateX(-1rem);
         }
 
-        .seguinos { display: none;
-        
-            }
+        .seguinos {
+            display: none;
+
+        }
 
         .logoRed {
             transform: translateX(-0.5rem);
@@ -227,20 +229,20 @@
             margin-bottom: 0.5rem;
         }
     }
-    
+
 }
 
 //MainInstitucional
 
 .historia-items {
-    
+
     .card {
 
         .card-img-top {
             height: 25rem;
         }
     }
-    }
+}
 
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {

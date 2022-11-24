@@ -1,20 +1,20 @@
 //MainIndex
 
 main {
-   
+
     .carrousel-invitacion {
 
 
         .entrenamiento {
             height: 32rem;
-           
-            }
+
+        }
 
         .deporte {
             background-color: red;
             border-radius: 10px;
             text-align: center;
-          
+
         }
 
         .sumate {
@@ -25,17 +25,18 @@ main {
             border-radius: 10px;
             text-align: center;
             transition: 0.5s;
+
             &:hover {
                 font-size: 23px;
-            } 
+            }
         }
 
         .sumate a {
             color: rgb(255, 0, 0);
             text-decoration: none;
-         }  
+        }
 
-        
+
     }
 
     .actualidad {
@@ -46,17 +47,62 @@ main {
         #primerNoticia {
             margin-left: 0;
         }
-        
-    .articulo {
-        margin-left: 1rem;
-        box-shadow: 06px 06px 12px rgba(0, 0, 0, 0.774), 03px 03px rgba(0, 0, 0, 0.151);
-        width: 18rem;
 
-        .card-img-top {
-            height: 15rem;
-            
+        .articulo {
+            margin-left: 1rem;
+            box-shadow: 06px 06px 12px rgba(0, 0, 0, 0.774), 03px 03px rgba(0, 0, 0, 0.151);
+            width: 18rem;
+
+            .card-img-top {
+                height: 15rem;
+
+            }
+
+            .tituloNoticia {
+                text-align: center;
+                font-weight: bold;
+                color: red;
+            }
+
+            .redaccion {
+                font-weight: bold;
+                text-align: center;
+            }
         }
-       
+
+        iframe {
+            height: 30rem;
+            width: 24rem;
+            border: solid 2px rgba(0, 0, 0, 0.445);
+            border-radius: 05px;
+            margin-left: 1rem;
+        }
+    }
+}
+
+
+
+//MainNoticias
+
+
+.noticiero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../images/bandera.jpg);
+    background-size: cover;
+
+
+    .new {
+        margin: 1rem;
+        box-shadow: 06px 06px 13px black;
+
+
+        .imagen-noticia {
+            height: 15rem;
+
+        }
+
         .tituloNoticia {
             text-align: center;
             font-weight: bold;
@@ -67,59 +113,14 @@ main {
             font-weight: bold;
             text-align: center;
         }
+
+        .verMas {
+            float: right;
+
+        }
+
     }
 
-    iframe {
-        height: 30rem;
-        width: 24rem;
-        border: solid 2px rgba(0, 0, 0, 0.445);
-        border-radius: 05px;
-        margin-left: 1rem;
-    }
-     }
-    }
-
-
-
-    //MainNoticias
-
-
-.noticiero {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-image: url(../images/bandera.jpg);
-    background-size: cover;
-    
-
-    .new {
-    margin: 1rem;
-    box-shadow: 06px 06px 13px black;
-    
-
-    .imagen-noticia {
-        height: 15rem;
-        
-    }
-
-    .tituloNoticia {
-        text-align: center;
-        font-weight: bold;
-        color: red;
-    }
-
-    .redaccion {
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .verMas {
-        float: right;
-        
-    }
-  
-    }
-    
 }
 
 //MainInstitucional 
@@ -146,14 +147,18 @@ main {
 
         }
 
-        .card-img-top {
-            height: 45rem;
+        .card-body {
+            .card-img-top {
+                height: 45rem;
+            }
+
+            h6 {
+                margin-top: 0.5rem;
+                text-decoration: underline 2px;
+            }
         }
 
-        h6 {
-            margin-top: 0.5rem;
-            text-decoration: underline 2px;
-        }
+        
     }
 
     .boca {
@@ -169,31 +174,31 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(white, black, white) ;
+    background-image: linear-gradient(white, black, white);
     background-position: center;
     background-size: cover;
 
     .presentacion {
-       width: 100%;
-       height: 9rem;
-       align-self: center;
+        width: 100%;
+        height: 9rem;
+        align-self: center;
     }
-    
+
     .texto {
-      text-align: center;
+        text-align: center;
         font-weight: bold;
         font-size: 3rem;
         color: rgb(168, 5, 5);
         transform: translateY(-7rem);
-      
+
     }
 
     .disciplinas {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-      
-        
+
+
 
 
 
@@ -218,7 +223,7 @@ main {
             .imagen-deporte {
                 height: 24rem;
             }
-    
+
             .infoDisciplina {
                 text-align: center;
                 font-weight: bold;
@@ -226,7 +231,7 @@ main {
 
         }
 
-      
+
     }
 }
 
@@ -234,9 +239,9 @@ main {
 //MainGaleria
 
 .mainGaleria {
-    background-image: linear-gradient(rgb(173, 0, 0), white,  rgb(173, 0, 0));
+    background-image: linear-gradient(rgb(173, 0, 0), white, rgb(173, 0, 0));
     height: 100%;
-   
+
 }
 
 .galerias {
@@ -263,53 +268,53 @@ main {
                 border: red 2px solid;
             }
 
-           
+
         }
 
         .card-title a {
             color: red;
             text-decoration: none;
         }
-        
 
-        }
 
-        .imagen-galeria {
-            height: 100%;
-            filter: blur(2px);
-        }
     }
 
+    .imagen-galeria {
+        height: 100%;
+        filter: blur(2px);
+    }
+}
 
 
 
-     //MainContacto
 
-     .seccion-contacto {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-image: url(../images/hinchas.jpg);
-        background-size: cover;
-        background-position:center;
+//MainContacto
+
+.seccion-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/hinchas.jpg);
+    background-size: cover;
+    background-position: center;
 
 
     .cartel {
         display: flex;
         justify-content: center;
         margin-top: 1rem;
-        
-     
-     
+
+
+
         .panel {
-        text-align: center;
-        color: white;
-        font-size: 26px;
-        background-color: rgba(255, 0, 0, 0.747);
-        padding: 1rem;
-        width: 100%;
-       
-     } 
+            text-align: center;
+            color: white;
+            font-size: 26px;
+            background-color: rgba(255, 0, 0, 0.747);
+            padding: 1rem;
+            width: 100%;
+
+        }
 
     }
 
@@ -321,7 +326,7 @@ main {
             color: rgb(0, 0, 0);
             font-weight: bold;
         }
-     
+
 
         .formulario {
             text-align: center;
@@ -330,140 +335,141 @@ main {
                 text-align: center;
             }
 
-        .formulario-texto {
-            padding: 0.3rem;
-            margin: 0.3rem;
-            color: rgb(255, 255, 255);
-            font-weight: bold;
-        }
+            .formulario-texto {
+                padding: 0.3rem;
+                margin: 0.3rem;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+            }
 
-        .botones {
-            margin-bottom: 0.5rem;
-        }
-            
-        }
-     }
+            .botones {
+                margin-bottom: 0.5rem;
+            }
 
-     
+        }
+    }
+
+
 }
 
 
 .info-socios {
-display: flex;
-background-image: url(../images/bandera.jpg);
-background-size: cover;
-background-position: center;
-
-.ult-info {
     display: flex;
-    flex-direction: column;
-    
+    background-image: url(../images/bandera.jpg);
+    background-size: cover;
+    background-position: center;
 
-    h4 {
-        
-        margin-top: 1rem;
-        color: rgb(0, 0, 0);
-        text-align: center;
+    .ult-info {
+        display: flex;
+        flex-direction: column;
+
+
+        h4 {
+
+            margin-top: 1rem;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        p {
+            background-color: rgb(255, 0, 0);
+            color: white;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: rgb(122, 1, 1);
+            }
+        }
+
     }
 
-    p {
-        background-color: rgb(255, 0, 0);
-        color: white;
-        text-align: center;
-        font-size: 1rem;
-        font-weight: bold;
-        transition: 0.5s;
-        &:hover {
-        background-color: rgb(122, 1, 1);
-       }
+    .asociate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .boton-socios {
+            width: 15rem;
+            height: 4rem;
+            align-self: center;
+            border: 0px;
+            border-radius: 05px;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            transition: 0.5s;
+
+            &:hover {
+                font-size: larger;
+                height: 5rem;
+                width: 17rem;
+            }
+
+            animation-name: efectoUno;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: 10s;
+            animation-delay: 0s;
+
+
+            @keyframes efectoUno {
+                0% {
+                    background-color: rgb(255, 0, 0);
+                    color: rgb(255, 255, 255);
+                }
+
+                25% {
+                    background-color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
+                }
+
+                50% {
+                    background-color: rgb(255, 0, 0);
+                    color: rgb(255, 255, 255);
+                }
+
+                75% {
+                    background-color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
+                }
+
+                100% {
+                    background-color: rgb(255, 0, 0);
+                    color: rgb(255, 255, 255);
+                }
+
+
+            }
+        }
+
+        .boton-socios a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        .informacion-util {
+            align-self: center;
+            font-weight: bold;
+            border-radius: 05px;
+            margin: 0.4rem;
+            color: rgb(0, 0, 0);
+            padding: 0.5rem;
+            text-align: center;
+
+
+
+
+
+
+        }
+
     }
 
-}
-
-.asociate {
-display: flex;
-flex-direction: column;
-justify-content: center;
-
-.boton-socios {
-    width: 15rem;
-    height: 4rem;
-    align-self: center;
-    border: 0px;
-    border-radius: 05px;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    transition: 0.5s;
-    &:hover {
-        font-size: larger;
-        height: 5rem;
-        width: 17rem;
-    }
-
-    animation-name: efectoUno;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 10s;
-    animation-delay: 0s;
-
-
-    @keyframes efectoUno {
-       0% {
-        background-color: rgb(255, 0, 0);
-        color: rgb(255, 255, 255);
-       }
-
-       25% {
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-       }
-
-       50% {
-        background-color: rgb(255, 0, 0);
-        color: rgb(255, 255, 255);
-       }
-
-       75% {
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-       }
-
-       100% {
-        background-color: rgb(255, 0, 0);
-        color: rgb(255, 255, 255);
-       }
-
-        
-    }
-}
-
-.boton-socios a {
-    color: white;
-    text-decoration: none;
-}
-
-
-.informacion-util {
-    align-self: center;
-    font-weight: bold;
-    border-radius: 05px;
-    margin: 0.4rem;
-    color: rgb(0, 0, 0);
-    padding: 0.5rem;
-    text-align: center;
-    
-
-
-
-   
-
-}
-
-}
-
 
 
 
 }
-
