@@ -92,11 +92,41 @@
 
     }
 
+    //MainInstitucional
+
+    .historia-items {
+    
+    .card {
+
+        .card-img-top {
+            height: 14rem;
+        }
+    }
+    }
 
     //MainDisciplinas
 
     .descripcionDisciplina {
         width: 100%;
+    }
+
+
+    //MainGaleria
+
+
+    .galerias {
+
+    .deporte-galeria {
+
+
+        .card-title {
+          
+            transform: translateY(5.5rem);
+    
+        }
+        
+
+        }
     }
 
 
@@ -200,10 +230,23 @@
     
 }
 
+//MainInstitucional
+
+.historia-items {
+    
+    .card {
+
+        .card-img-top {
+            height: 25rem;
+        }
+    }
+    }
+
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
     aside {
         display: none;
     }
+
 }

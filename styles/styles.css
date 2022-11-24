@@ -213,6 +213,38 @@ main .actualidad iframe {
   float: right;
 }
 
+.historia-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.historia-items .card {
+  margin: 1rem;
+  text-align: center;
+  align-self: center;
+  background-color: rgba(255, 0, 0, 0.76);
+  color: black;
+  font-weight: bold;
+}
+.historia-items .card .card-title {
+  font-size: 2rem;
+  color: rgb(139, 0, 0);
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.historia-items .card .card-img-top {
+  height: 45rem;
+}
+.historia-items .card h6 {
+  margin-top: 0.5rem;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+.historia-items .boca {
+  margin-top: 1rem;
+}
+
 .mainDisciplinas {
   display: flex;
   flex-direction: column;
@@ -258,6 +290,43 @@ main .actualidad iframe {
 .mainDisciplinas .disciplinas .descripcionDisciplina .infoDisciplina {
   text-align: center;
   font-weight: bold;
+}
+
+.mainGaleria {
+  background-image: linear-gradient(rgb(173, 0, 0), white, rgb(173, 0, 0));
+  height: 100%;
+}
+
+.galerias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galerias .deporte-galeria {
+  margin: 0.5rem;
+  width: 22rem;
+  height: 17rem;
+}
+.galerias .deporte-galeria .card-title {
+  text-align: center;
+  font-size: 2rem;
+  transform: translateY(6rem);
+  color: red;
+  font-weight: bold;
+  transition: background-color 0.5s, border 0s;
+}
+.galerias .deporte-galeria .card-title:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: red 2px solid;
+}
+.galerias .deporte-galeria .card-title a {
+  color: red;
+  text-decoration: none;
+}
+.galerias .imagen-galeria {
+  height: 100%;
+  filter: blur(2px);
 }
 
 .seccion-contacto {
@@ -471,8 +540,14 @@ main .actualidad iframe {
   .new {
     width: 100%;
   }
+  .historia-items .card .card-img-top {
+    height: 14rem;
+  }
   .descripcionDisciplina {
     width: 100%;
+  }
+  .galerias .deporte-galeria .card-title {
+    transform: translateY(5.5rem);
   }
   .cartel .panel {
     display: none;
@@ -528,6 +603,10 @@ main .actualidad iframe {
     margin-bottom: 0.5rem;
   }
 }
+.historia-items .card .card-img-top {
+  height: 25rem;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   aside {
     display: none;
