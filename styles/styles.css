@@ -222,8 +222,8 @@ main .actualidad iframe {
   margin: 1rem;
   text-align: center;
   align-self: center;
-  background-color: rgb(139, 0, 0);
-  color: white;
+  background-color: rgba(255, 0, 0, 0.76);
+  color: black;
   font-weight: bold;
 }
 .historia-items .card .card-title {
