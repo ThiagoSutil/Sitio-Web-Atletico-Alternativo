@@ -59,8 +59,9 @@ const eleccion = (opcion) => {
 
     switch (opcion) {
 
-        case 1: agregarProductos();
-        console.log(productos);
+        case 1:
+            agregarProductos();
+            console.log(productos);
 
             break;
 
@@ -71,20 +72,23 @@ const eleccion = (opcion) => {
             break;
 
         case 0:
-            alert('Gracias por visitar nuestra tienda online!')
+            alert('Gracias por visitar nuestra tienda online!');
             break;
 
         default:
-            alert('Número incorrecto, Intentalo de nuevo')
+            alert('Número incorrecto, Intentalo de nuevo');
 
     }
 
-    opciones = parseInt(prompt('- Ingresá 1 para agregar un producto\n- Ingresá 2 para ver productos disponibles\n- Ingresá 0 para salir'));
+    //    opciones = parseInt(prompt('- Ingresá 1 para agregar un producto\n- Ingresá 2 para ver productos disponibles\n- Ingresá 0 para salir'));
 }
 
-while (opciones !== 0) {
-    opciones = parseInt(prompt('- Ingresá 1 para agregar un producto\n- Ingresá 2 para ver productos disponibles\n- Ingresá 0 para salir'));
-}
+ while (opciones !== 0) {
+      opciones = parseInt(prompt('- Ingresá 1 para agregar un producto\n- Ingresá 2 para ver productos disponibles\n- Ingresá 0 para salir'));
+      eleccion(opciones);
+ }
+
+
 
 
 
